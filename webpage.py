@@ -4,7 +4,7 @@ import ollama
 
 modelfile='''
 # set the temperature
-FROM tinyllama
+FROM tinydolphin
 
 # set the temperature to 1 [higher is more creative, lower is more coherent]
 PARAMETER temperature 1
