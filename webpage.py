@@ -52,7 +52,7 @@ if send_button and user_input:
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8000)
+    app.run(host='0.0.0.0', port=8501)
     # Use the placeholder to display the chat history
     for message in chat_history:
         output_placeholder.write(message)
