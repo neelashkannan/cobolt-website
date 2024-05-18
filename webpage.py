@@ -50,6 +50,9 @@ if send_button and user_input:
     # Add the output to the chat history
     chat_history.append(output)
 
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=8000)
     # Use the placeholder to display the chat history
     for message in chat_history:
         output_placeholder.write(message)
